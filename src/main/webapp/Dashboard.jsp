@@ -127,7 +127,7 @@
 
 					try {
 						Class.forName("com.mysql.cj.jdbc.Driver");
-						Connection connection = DriverManager.getConnection("jdbc:mysql://yy3ul2t1rm7wowg0:f15d5zoj7lk2mq3z@kutnpvrhom7lki7u.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/oci53e6lelq9xrqh", "root", "");
+						Connection connection = DriverManager.getConnection("jdbc:mysql://yy3ul2t1rm7wowg0:f15d5zoj7lk2mq3z@kutnpvrhom7lki7u.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/oci53e6lelq9xrqh", "yy3ul2t1rm7wowg0", "f15d5zoj7lk2mq3z");
 						Statement statement = connection.createStatement();
 						String xVal, yVal;
 
