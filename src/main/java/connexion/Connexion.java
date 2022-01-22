@@ -8,7 +8,7 @@ public class Connexion {
 
     private static String login = "root";
     private static String password = "";
-    private static String url = "jdbc:mysql://localhost:3306/jdbc";
+    private static String url = "jdbc:mysql://yy3ul2t1rm7wowg0:f15d5zoj7lk2mq3z@kutnpvrhom7lki7u.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/oci53e6lelq9xrqh";
     private Connection connection = null;
     private static Connexion instane;
 
