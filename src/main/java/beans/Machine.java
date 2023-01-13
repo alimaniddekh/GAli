@@ -47,7 +47,7 @@ public class Machine {
 //		this.salle = salle;
 //	}
 
-
+//test
 	public Salle getSalle() {
 		return salle;
 	}
